@@ -1,0 +1,270 @@
+main{
+	height: 100%;
+}
+main .container{
+	text-align: left;
+	line-height: 35px;
+	height: 100%;
+}
+main .container .users img{
+	float: left;
+	width:100px;
+	height: 100px;
+	margin-right: 20px;
+	border:1px solid #000;
+}
+main .container .users .profile-box{
+	float: left;
+	background:#EBEBEB;
+	width:31%;
+	padding: 25px;
+
+		margin:20px 10px;
+
+}
+main .container .users .profile-box p{
+	float: left;
+	line-height: 20px;
+	
+}
+
+main .container .users .unfollow{
+	 
+  padding: 9px 25px;
+  color:#fff;
+  background:#66BD2B;
+  transition:all 0.5s ease;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+main .container .users .unfollow:hover{
+	text-decoration: none;
+	
+}
+main .container .users .follow{
+  padding: 9px 25px;
+  color:#fff;
+  background:cornflowerblue;
+  transition:all 0.5s ease;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+main .container .users .follow:hover{
+	text-decoration: none;
+}
+
+main .container .profile .stats{
+	font-size: 20px;
+	margin-right: 15px;
+	color:rgba(39, 39, 39, 0.84);
+}
+main .container .profile .stats span{
+	font-size: 22px;
+	color:#000;
+}
+main .container .profile .stats:hover{
+	text-decoration: none;
+}
+main .container .profile .fa{
+	font-size: 25px;
+	
+	margin:20px 4px;
+
+}
+main .container .profile .send-message{
+	float: right;
+}
+.fa-facebook{
+	color:#fff;
+	background:#3A5795;
+	padding: 10px 12px;
+	border-radius: 50%;
+	width:40px;
+	height: 40px;
+}
+.fa-twitter{
+	color:#fff;
+	background:#55ACEE;
+	padding: 10px 9px;
+	border-radius: 50%;
+	width:40px;
+	height: 40px;
+}
+.fa-google-plus{
+	color:#fff;
+	background:#E46E5E;
+	padding: 10px 9px;
+	border-radius: 50%;
+	width:40px;
+	height: 40px;
+}
+.fa-linkedin{
+	color:#fff;
+	background:#0D7BAE;
+	padding: 8px 9px;
+	border-radius: 50%;
+	width:40px;
+	height: 40px;
+}
+.fa-github{
+	color:#fff;
+	background:#323131;
+	padding: 9px 9px;
+	border-radius: 50%;
+	width:40px;
+	height: 40px;
+}
+.site{
+	width:50px;
+	height: 50px;
+
+}
+.modal-body{
+	text-align: left;
+}
+.modal-body .modal-users img{
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin-right: 15px;
+}
+.modal-body .modal-users{
+	
+	display: block;
+	height: 105px;
+}
+.modal-body .modal-users .followship{
+	float: right;
+}
+.modal-body .modal-users .unfollow{
+	 padding: 9px 25px;
+  color:#fff;
+  background:#66BD2B;
+  transition:all 0.5s ease;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+.modal-body .modal-users .unfollow:hover{
+text-decoration: none;
+	
+}
+.modal-body .modal-users .follow{
+	  padding: 9px 25px;
+  color:#fff;
+  background:cornflowerblue;
+  transition:all 0.5s ease;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.modal-body .modal-users .follow:hover{
+text-decoration: none;
+
+}
+.label{
+	font-weight: lighter;
+}
+.main-container main .container #heading{
+	display: inline;
+	float: left;
+	margin-top: 25px;
+}
+.pagination{
+	float: right;
+}
+.pagination  .fa{
+	color:#fff;
+	font-size: 45px;
+	background:#E5834A;
+	padding: 5px 20px;
+	
+}
+
+.tab-panels{
+	height:90%;
+	background:#EEF2F5;
+	
+	border-right:1px solid #c3cfd9;
+	border-left:1px solid #c3cfd9;
+}
+.tab-panels ul{
+      margin:0;
+      padding: 0;
+		width:299px;	
+		height: 100%;
+		float: left;
+		border-right: 1px solid #c3cfd9;
+    }
+    .tab-panels ul li{
+      list-style: none;
+      display: block;
+      background:#FBFBFB;
+		width: 299px;
+      padding:6px 15px;
+     border-top:1px solid #c3cfd9;
+	border-right: 1px solid #c3cfd9;
+      color:#fff;
+      font-weight: 700;
+		position: relative;
+      cursor: pointer;
+      	 
+    }
+    .tab-panels ul li i{
+   right: 15px;
+   font-size: 20px;
+	position: absolute;
+	top: 13px;	 
+    }
+    .tab-panels ul li:hover i{
+   right: 12px;
+   font-size: 21px;
+	position: absolute;
+	top: 13px;	 
+	transition:all 0.2s ease;
+    }
+    .tab-panels ul li.active-tab{
+      color:#06365f;
+      background:#F1F2F4;
+	
+    }
+    a{
+    	color:#3f729b;
+    }
+    .tab-panels ul li.active-tab a{
+      color:#06365f;
+    }
+    .tab-panels ul li a:hover{
+   	text-decoration: none;
+	
+    }
+    .tab-panels .panel{
+      display: none;
+      background:#fff;
+  	border:0;
+	height: 100%;
+	float: right;
+	width:838px;
+	padding:0px 45px;
+    }
+    .tab-panels .panel h2{
+    	color:#06365F;
+    }
+    .tab-panels .panel .input-group{
+    	display: flex;
+    }
+    .tab-panels .panel .input-group label{
+    	width:150px;
+    }
+    .tab-panels .panel .input-group input{
+    	width:500px;
+    	height: 35px;
+    }
+    .tab-panels .panel .input-group textarea{
+    	width:500px;
+    	height: 177px;
+    }
+.tab-panels .panel.active-panel{
+      display: block;
+      margin-bottom: 0;
+    }

@@ -1,0 +1,178 @@
+body{
+	height: 100%;
+}
+.main-container, main{
+	height: 100%;
+	overflow: hidden;
+}
+.users,.editor-area{
+	height: 100%;
+	
+}
+.run{
+	cursor: pointer;
+}
+.tab-panels{
+	height: 100%;
+	width: 30%;
+	display: inline;
+}
+.fields{
+	width:30%;
+	display: inline;
+	height: 100%;
+	overflow: hidden;
+	background:rgba(79, 79, 79, 1);
+}
+.result{
+	display: inline;
+	width: 70%;
+	height: 100%;
+	
+}
+.editor-area{
+	display: flex;
+}
+.result #preview{
+	width: 100%;
+	height: 100%;
+}
+.CodeMirror{
+	height: 100%;
+}
+section.edit{
+	height: 100%;
+}
+.tab-panels ul{
+      margin:0;
+      padding: 0;
+    }
+    .tab-panels ul li{
+      list-style: none;
+      display: inline-block;
+      background:rgba(79, 79, 79, 1);
+	width: 32%;
+      padding:6px 15px;
+      
+      color:#fff;
+      font-weight: lighter;
+		text-align: center;
+      cursor: pointer;
+      margin-left: -3px;
+    
+      
+        border-right:1px solid #fefefe;
+    }
+    .tab-panels ul li:nth-child(1){
+		
+    }
+    .tab-panels ul li.active-tab{
+      color:#B0A9A7;
+      background:#272822;
+		transition:all 0.3s ease;
+    }
+    .tab-panels ul li:hover{
+      transition:all 0.3s ease;
+      background:#272822;
+	
+    }
+    .tab-panels .panel{
+      display: none;
+      background:#ccc;
+  	border:none;
+	height: 100%;
+    }
+   
+    .tab-panels .panel.active-panel{
+      display: block;
+      margin-bottom: 0;
+    }
+    .tab-panels a .fa-cog{
+    	color:#fff;
+    	float: left;
+    	margin-top: 3px;
+    }
+    .tab-panels a .fa-cog:hover{
+		color:#ccc;
+    }
+     .tab-panels  .fa-times{
+    	color:#fff;
+    	float: right;
+    	margin-top: 3px;
+    }
+     .tab-panels  .fa-times:hover{
+    	color:#ccc;
+    	float: right;
+    	margin-top: 3px;
+    }
+.main-container nav ul.right{
+	float: right;
+	margin-bottom: 0;
+	margin-right: 100px;
+}
+.main-container nav ul.left{
+	float: left;
+	margin-bottom: 0;
+	
+}
+.main-container nav ul.left li .run{
+	background:#F7A018;
+	color:#fff;
+	font-size: 16px;
+}
+.main-container nav ul.left li .settings{
+	background:#66BD2B;
+	color:#fff;
+	font-size: 16px;
+}
+.main-container nav ul.left li .share{
+	background:#EC5959;
+	color:#fff;
+	font-size: 16px;
+}
+.main-container nav ul.left li .like{
+	background:#A7F9DD;
+	color:#EC5959;
+	font-size: 16px;
+}
+.main-container nav ul li{
+	float: left;
+	margin-right: 5px;
+}
+.main-container nav ul li .nav-buttons{
+	border:0;
+	height: 52px;
+	padding: 15px;
+	
+	outline: none;
+}
+.main-container nav ul li button[type=submit]{
+	text-align: center;
+	background:cornflowerblue;
+	color:#fff;
+	font-size: 16px;
+}
+.modal-body form{
+	margin-top: 30px;
+	text-align: right;
+}
+.modal-body .input-group{
+	text-align: left;
+}
+.modal-body .input-group input,
+.modal .input-group textarea{
+	width:400px;
+}
+.modal .input-group textarea{
+	height: 200px;
+}
+.modal .input-group label{
+	display:block;
+	font-weight: lighter;
+}
+.modal .save-submit{
+	border:none;
+	background:#66BD2B;
+	color:#fff;
+	padding:15px;
+}
